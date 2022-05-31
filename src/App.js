@@ -1,6 +1,8 @@
 import  React, { useEffect, useState } from 'react';
+import './App.css';
 import Tmdb from './Tmdb';
-import MovieFile from './components/MovieFile/MovieFile'
+import MovieFile from './components/MovieFile/MovieFile';
+
 
 export default () => {
 
