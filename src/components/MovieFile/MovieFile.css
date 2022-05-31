@@ -1,0 +1,33 @@
+.movieFile {
+    margin-bottom: 30px;
+}
+
+.movieFile h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.movieFile--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieFile--list {
+    width: 9999999px;
+}
+
+.movieFile--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieFile--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0,3s;
+}
+
+.movieFile--item img:hover {
+    transform: scale(1);
+
+}
