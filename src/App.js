@@ -19,7 +19,7 @@ export default () => {
     <div className="page">
       <section className='lists'>
         {movieList.map((item, key)=>(
-          <MovieFile key={key}/> //key = necessário por estar usando o map
+          <MovieFile key={key} title={item.title} items={item.items} /> //key = necessário por estar usando o map
         ))}
       </section>
     </div>
