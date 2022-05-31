@@ -1,19 +1,11 @@
 const API_KEY = 'a773e98ce2c3fb45874ffcdd56df5537';
 const API_BASE = 'https://api.themoviedb.org/3';
 
-/*
-- originais
-- recomendados (trending)
-- em alta (top rated)
-- ação
-- terror
-- romance
-- documentários
-*/
+
 
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`); // Fazer requisição para um serviço externo ( 'await' é usado para esperar a resposta )
-    const req = await req.json();
+    const json = await req.json();
     return json;
 }
 
@@ -32,32 +24,32 @@ export default {
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'toprated'
+                slug: 'toprated',
                 title: 'Em Alta',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'action'
+                slug: 'action',
                 title: 'Ação',
                 items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'comedy'
+                slug: 'comedy',
                 title: 'Comédia',
                 items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'horror'
+                slug: 'horror',
                 title: 'Terror',
                 items: await basicFetch(`/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'romance'
+                slug: 'romance',
                 title: 'Romance',
                 items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'documentary'
+                slug: 'documentary',
                 title: 'Documentários',
                 items: await basicFetch(`/discover/movie?with_genres=99&language=pt-BR&api_key=${API_KEY}`)
             },
