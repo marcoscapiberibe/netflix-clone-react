@@ -4,7 +4,7 @@ import '../FeaturedMovie/FeaturedMovie.css';
 export default () => {
     return (
         <div>
-            teste
+            FILME EM DESTAQUE
         </div>
     )
 }
