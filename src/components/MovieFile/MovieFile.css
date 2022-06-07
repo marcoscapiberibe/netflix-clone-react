@@ -58,3 +58,11 @@
 .movieFile:hover .movieFile--left, .movieFile:hover .movieFile--right {
     opacity: 1;
 }
+
+
+/* Responsividade */
+@media (max-width: 760px) {
+    .movieFile--left, .movieFile--right {
+        opacity: 1;
+    }
+}
