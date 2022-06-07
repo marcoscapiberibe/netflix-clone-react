@@ -1,8 +1,8 @@
 import React from 'react';
 import '../MovieFile/MovieFile.css';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
-// import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+
 
 
 export default ({ title, items }) => {
@@ -10,8 +10,10 @@ export default ({ title, items }) => {
         <div className="movieFile">
             <h2>{title}</h2>
             <div className="movieFile--left">
-                <NavigateBeforeIcon style={{fontSize: 50}} />
-                
+                <NavigateBeforeIcon style={{fontSize: 50}} />    
+            </div>
+            <div className="movieFile--right">
+                <NavigateNextIcon style={{fontSize: 50}} />
             </div>
 
             <div className="movieFile--listarea">
