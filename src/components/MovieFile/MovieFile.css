@@ -11,6 +11,10 @@
     padding-left: 30px;
 }
 
+.movieFile--list {
+    transition: all ease 0.5s;
+}
+
 .movieFile--item {
     display: inline-block;
     width: 150px;
