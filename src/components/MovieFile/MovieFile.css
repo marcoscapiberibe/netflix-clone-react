@@ -31,3 +31,30 @@
     transform: scale(1);
 
 }
+
+.movieFile--left, .movieFile--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.movieFile--left {
+    left: 0;
+}
+
+.movieFile--right {
+    right: 0;
+}
+
+.movieFile:hover .movieFile--left, .movieFile:hover .movieFile--right {
+    opacity: 1;
+}
