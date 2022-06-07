@@ -4,6 +4,7 @@ import Tmdb from './Tmdb';
 import MovieFile from './components/MovieFile/MovieFile';
 import FeaturedMovie from './components/FeaturedMovie/FeaturedMovie';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 export default () => {
@@ -60,6 +61,10 @@ export default () => {
           <MovieFile key={key} title={item.title} items={item.items} /> //key = necessário por estar usando o map
         ))}
       </section>
+      
+      <Footer />
+
+
     </div>
   );
 }
