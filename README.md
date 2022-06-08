@@ -20,7 +20,7 @@ No React JS utilizamos os Hooks { useState } e { useEffects }.
 * NPM
 
 # Iniciando o projeto
-Para iniciar a aplicação entre no endereço: 
+Para iniciar a aplicação entre no endereço: https://reactjs-netflix-clone-marcos.herokuapp.com/
 
 # Créditos
 Direitos de imagem para Netflix
