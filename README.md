@@ -1,11 +1,11 @@
 # Aplicação desenvolvida com React JS
 
-Aplicação responsiva desenvolvida em React Js consumindo API externa.
+Aplicação responsiva desenvolvida em React JS consumindo API externa.
 
 
 # Sobre o projeto
 
-Aplicação responsiva desenvolvida em React Js que apresenta a parte gráfica semelhante a da Netflix. Consumimos a API externa do TMDB, que consiste em usar imagens e/ou dados de filmes, programas de TV ou atores nas nossas aplicações. Também consumimos a biblioteca Material-UI para inserir os ícones do projeto. 
+Aplicação responsiva desenvolvida em React JS que apresenta a parte gráfica semelhante a da Netflix. Consumimos a API externa do TMDB, que consiste em usar imagens e/ou dados de filmes, programas de TV ou atores nas nossas aplicações. Também consumimos a biblioteca Material-UI para inserir os ícones do projeto. 
 No React JS utilizamos os Hooks { useState } e { useEffects }.  
 
 
