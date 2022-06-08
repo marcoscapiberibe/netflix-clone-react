@@ -9,7 +9,7 @@ export default function Footer() {
                 <p>Desenvolvido com React JS por Marcos Capiberibe</p>
                 <p>Copyright © 2022</p>
                 <p>Direitos de imagem para Netflix</p>
-                <p>Dados pegos do Themoviedb.org</p>
+                <p>Dados consumidos do Themoviedb.org</p>
             </div>
         </footer>
     );
