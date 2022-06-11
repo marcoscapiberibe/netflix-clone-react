@@ -15,7 +15,7 @@ No React JS utilizamos os Hooks { useState } e { useEffects }.
 * CSS 
 * Javascript
 * React JS
-* API externa (TMDB)
+* API (TMDB)
 * Biblioteca Material-UI
 * NPM
 
