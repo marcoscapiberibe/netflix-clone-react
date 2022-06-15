@@ -8,6 +8,7 @@ Aplicação responsiva desenvolvida em React JS consumindo API externa.
 Aplicação responsiva desenvolvida em React JS que apresenta a parte gráfica semelhante a da Netflix. Consumimos a API externa do TMDB, que consiste em usar imagens e/ou dados de filmes, programas de TV ou atores nas nossas aplicações. Também consumimos a biblioteca Material-UI para inserir os ícones do projeto. 
 No React JS utilizamos os Hooks { useState } e { useEffects }.  
 
+![Clone-Netlfix-React-Marcos](https://user-images.githubusercontent.com/96851717/173709331-4d5989eb-ee53-472b-b5bd-d1ac68f4948b.jpeg)
 
 # Tecnologias utilizadas
 
